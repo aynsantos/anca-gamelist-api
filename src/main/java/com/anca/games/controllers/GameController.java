@@ -1,9 +1,7 @@
 package com.anca.games.controllers;
 
 import com.anca.games.dto.GameDTO;
-import com.anca.games.entities.Game;
 import com.anca.games.services.GameService;
-import lombok.Getter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
